@@ -1,9 +1,5 @@
-# Weather App
+# [Weather App](https://which-weather.herokuapp.com)
 
-OpenWeatherMapAPI
+NOTE: Does not work on Firefox because Firefox blocks loading 'mixed active content' from non-https
 
-Middleware: redux-promise
-
-Ajax browser requests with Axios
-
-react-sparklines
+Technologies: OpenWeatherMapAPI, redux-promise, Axios, react-sparklines, GoogleMap API
