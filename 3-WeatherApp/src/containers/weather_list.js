@@ -26,4 +26,4 @@ function mapStateToProps({ weather }) {
     return { weather };
 }
 
-export default conenct(mapStateToProps)(WeatherList);
+export default connect(mapStateToProps)(WeatherList);
