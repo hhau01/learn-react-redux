@@ -5,7 +5,7 @@ import { fetchPosts } from '../actions/index';
 class PostsIndex extends Component {
     // only called first time
     componentWillMount() {
-        this.props.fetchPosts;
+        this.props.fetchPosts();
     }
 
     render() {
