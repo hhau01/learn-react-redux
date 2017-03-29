@@ -35,7 +35,7 @@ class PostsNew extends Component {
                 </div>
 
                 <div className={`form-group ${categories.touched && categories.invalid ? 'has-danger' : ''}`}>
-                    <label>Categories</label>
+                    <label>Username</label>
                     <input type='text' className='form-control' {...categories} />
                     <div className='text-help'>
                         {categories.touched ? categories.error : ''}
@@ -64,7 +64,7 @@ function validate(values) {
         errors.title = 'Enter a title';
     }
     if (!values.categories) {
-        errors.categories = 'Enter a category';
+        errors.categories = 'Enter a username';
     }
     if (!values.content) {
         errors.content = 'Enter some content';
